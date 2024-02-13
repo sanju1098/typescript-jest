@@ -1,11 +1,8 @@
 import React from "react";
+import HomePage from "@src/pages/HomePage";
 
 const App = () => {
-	return (
-		<div>
-			<h3>Webpack</h3>
-		</div>
-	);
+  return <HomePage />;
 };
 
 export default App;
